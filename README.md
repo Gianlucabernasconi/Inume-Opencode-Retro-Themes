@@ -22,8 +22,8 @@ Classic machines, old CRT palettes, console dashboards, worn neon, and chunky UI
 | [`norton-commander`](themes/norton-commander.json) | Norton Commander | Blue file-manager terminal, high contrast |
 | [`ibm-old-terminal`](themes/ibm-old-terminal.json) | IBM PC terminal | Green phosphor, black screen, command-line focus |
 | [`cga`](themes/cga.json) | CGA palette | Early PC color, hard contrast, retro cyan |
-| [`theme-station-2`](themes/theme-station-2.json) | PlayStation 2 | Deep black, blue aura, dark console boot energy |
 | [`theme-station-1`](themes/theme-station-1.json) | PlayStation 1 | Pale gray shell, muted UI, classic console feel |
+| [`theme-station-2`](themes/theme-station-2.json) | PlayStation 2 | Deep black, blue aura, dark console boot energy |
 | [`theme-cube`](themes/theme-cube.json) | Nintendo GameCube | Purple hardware, playful console tone |
 | [`family-computheme`](themes/family-computheme.json) | Nintendo Famicom | Cream, red, and vintage Japanese hardware |
 | [`super-theme`](themes/super-theme.json) | Super Nintendo | Soft gray, purple accents, classic SNES |
@@ -103,17 +103,17 @@ Early PC color logic with bold cyan, dark contrast, and CGA-era sharpness.
 
 ### Consoles & Video Games
 
-#### [`theme-station-2`](themes/theme-station-2.json)
-
-Dark PS2-inspired palette with deep blacks and electric blue highlights.
-
-![Theme Station 2 preview](assets/screenshots/theme-station-2-1.webp)
-
 #### [`theme-station-1`](themes/theme-station-1.json)
 
 Soft PlayStation gray with muted contrast and a classic console surface.
 
 ![Theme Station 1 preview](assets/screenshots/theme-station-1-2.webp)
+
+#### [`theme-station-2`](themes/theme-station-2.json)
+
+Dark PS2-inspired palette with deep blacks and electric blue highlights.
+
+![Theme Station 2 preview](assets/screenshots/theme-station-2-1.webp)
 
 #### [`theme-cube`](themes/theme-cube.json)
 
