@@ -157,18 +157,6 @@ Dim neon glow with worn pink and green accents for late-night sessions.
 
 ---
 
-## Repository Structure
-
-```text
-Inume-Opencode-Retro-Themes/
-├── assets/
-│   └── screenshots/         # README previews
-├── scripts/                 # Validation utilities
-├── themes/                  # OpenCode theme JSON files
-├── LICENSE
-└── README.md
-```
-
 ## License
 
 [MIT](LICENSE)
