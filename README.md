@@ -10,8 +10,6 @@
 
 Classic machines, old CRT palettes, console dashboards, worn neon, and chunky UI nostalgia translated into modern OpenCode themes.
 
-[Gallery](#theme-gallery) | [Install](#quick-installation) | [Validate](#validate-themes) | [Contributing](#contributing)
-
 </div>
 
 ---
