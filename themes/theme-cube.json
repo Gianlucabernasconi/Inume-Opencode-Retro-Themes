@@ -2,7 +2,6 @@
   "$schema": "https://opencode.ai/theme.json",
   "defs": {
     "cubeDeep": "#100D24",
-    "cubeShell": "#30236F",
     "cubePanel": "#211A4A",
     "cubeEdge": "#4D3BA0",
     "discBlack": "#101014",

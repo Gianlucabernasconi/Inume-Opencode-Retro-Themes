@@ -12,13 +12,8 @@
     "error": "#FF0000",
     "warning": "#00FFFF",
     "info": "#00FFFF",
-    "shadowDark": "#000000",
-    "cgaCyan": "#00FFFF",
     "cgaMagenta": "#FF00FF",
-    "cgaWhite": "#FFFFFF",
-    "cgaBlack": "#000000",
-    "cgaGreen": "#00FF00",
-    "cgaRed": "#FF0000"
+    "cgaGreen": "#00FF00"
   },
   "theme": {
     "primary": { "dark": "accent", "light": "accent" },

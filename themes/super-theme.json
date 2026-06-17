@@ -15,8 +15,7 @@
     "shadowDark": "#5A5A62",
     "snesPurple": "#5B2D8E",
     "snesLavender": "#9370DB",
-    "snesGrey": "#7A7A82",
-    "snesLight": "#C0C0C8"
+    "snesGrey": "#7A7A82"
   },
   "theme": {
     "primary": { "dark": "accent", "light": "accent" },
