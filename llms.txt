@@ -1,0 +1,27 @@
+# Inume Opencode Retro Themes
+
+> 12 free, MIT-licensed retro themes for OpenCode, the open-source terminal AI coding agent (TUI). Each theme recreates the look of classic hardware — Windows 95, CGA, SNES, PlayStation, GameCube, Famicom, IBM phosphor terminals, PCB circuit boards, and worn neon.
+
+Themes are JSON files dropped into `~/.config/opencode/themes/` and activated with `/theme <name>` inside OpenCode.
+
+## Key pages
+
+- [README](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/blob/main/README.md): theme list, installation (one-liner, script, manual), and FAQ
+- [Themes folder](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/tree/main/themes): the 12 JSON theme files
+- [Install script](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/blob/main/install.sh): interactive installer (`./install.sh`, `./install.sh all`, or specific theme names)
+- [OpenCode](https://opencode.ai/): the terminal AI coding agent these themes target
+
+## Themes
+
+- w95-classic: Windows 95 — teal desktop, gray panels
+- norton-commander: Norton Commander — blue file-manager terminal
+- ibm-old-terminal: IBM PC terminal — green phosphor on black
+- cga: CGA palette — early PC color, cyan/black (fixed palette)
+- theme-station-1: PlayStation 1 — pale gray shell
+- theme-station-2: PlayStation 2 — deep black, blue aura
+- theme-cube: Nintendo GameCube — purple hardware
+- family-computheme: Nintendo Famicom — cream and red
+- super-theme: Super Nintendo — soft gray, purple accents (fixed palette)
+- super-color: SNES multicolor — brighter palette (fixed palette)
+- silicon-trace: PCB circuits — chip traces, green board
+- faded-neon: worn neon — dim pink/green glow

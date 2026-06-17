@@ -14,6 +14,8 @@ Classic machines, old CRT palettes, console dashboards, worn neon, and chunky UI
 
 ---
 
+**Inume Opencode Retro Themes** is a collection of 12 free, MIT-licensed themes for [OpenCode](https://opencode.ai/), the open-source terminal AI coding agent (TUI). Each theme recreates the look of classic hardware — Windows 95, the CGA palette, SNES and PlayStation consoles, the Nintendo GameCube and Famicom, IBM phosphor terminals, PCB circuit boards, and worn neon — packaged as JSON theme files you drop into `~/.config/opencode/themes/`.
+
 ## Theme Lineup
 
 | Theme | Inspiration | Mood |
@@ -31,11 +33,36 @@ Classic machines, old CRT palettes, console dashboards, worn neon, and chunky UI
 | [`silicon-trace`](themes/silicon-trace.json) | PCB circuits | Chip traces, green board, hardware lab |
 | [`faded-neon`](themes/faded-neon.json) | Worn neon | Dim glow, pink/green accents, late-night terminal |
 
+> **Fixed-palette themes.** `cga`, `super-color`, `super-theme`, and `w95-classic` use a single fixed palette: their `dark` and `light` variants are identical, so they render the same regardless of your terminal's light/dark mode. This is intentional — it preserves the look of the original hardware (a CGA monitor or a Windows 95 desktop didn't switch palettes). The remaining themes adapt their palette to each mode.
+
 ---
 
 ## Quick Installation
 
-### User Install
+### Option A — One-liner (no clone)
+
+Download a single theme straight into your OpenCode themes folder. Replace `theme-name` with any theme from the table above:
+
+```bash
+mkdir -p ~/.config/opencode/themes
+curl -fsSL https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/theme-name.json \
+  -o ~/.config/opencode/themes/theme-name.json
+```
+
+### Option B — Install script
+
+Clone the repo and run the installer to pick themes interactively or install them all:
+
+```bash
+git clone https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes.git
+cd Inume-Opencode-Retro-Themes
+./install.sh                    # interactive picker
+./install.sh all                # install every theme
+./install.sh cga w95-classic    # install specific themes
+./install.sh --project all      # install into ./.opencode/themes instead
+```
+
+### Option C — Manual copy
 
 ```bash
 git clone https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes.git
@@ -43,7 +70,9 @@ mkdir -p ~/.config/opencode/themes
 cp Inume-Opencode-Retro-Themes/themes/theme-name.json ~/.config/opencode/themes/
 ```
 
-Activate it inside OpenCode:
+### Activate
+
+Inside OpenCode, switch to a theme by name (the file name without `.json`):
 
 ```bash
 /theme theme-name
@@ -56,13 +85,6 @@ Or set it as your default theme in `tui.json`:
   "$schema": "https://opencode.ai/tui.json",
   "theme": "theme-name"
 }
-```
-
-### Project Install
-
-```bash
-mkdir -p .opencode/themes
-cp Inume-Opencode-Retro-Themes/themes/theme-name.json .opencode/themes/
 ```
 
 OpenCode loads custom themes from `~/.config/opencode/themes/`, `<project-root>/.opencode/themes/`, and `./.opencode/themes/`. Later directories take precedence.
@@ -154,6 +176,34 @@ Circuit-board greens and hardware-lab contrast for a PCB-inspired terminal.
 Dim neon glow with worn pink and green accents for late-night sessions.
 
 ![Faded Neon preview](assets/screenshots/faded-neon-2.png)
+
+---
+
+## FAQ
+
+### What is OpenCode?
+
+OpenCode is an open-source AI coding agent built for the terminal (a TUI), available at [opencode.ai](https://opencode.ai/). It supports custom JSON themes loaded from `~/.config/opencode/themes/`.
+
+### Are there retro or vintage themes for OpenCode?
+
+Yes. This repository provides 12 retro themes inspired by classic computers and game consoles, including Windows 95, the CGA palette, SNES, PlayStation 1 and 2, GameCube, Famicom, and IBM terminals.
+
+### How do I install an OpenCode theme?
+
+Copy any theme JSON file into `~/.config/opencode/themes/`, then run `/theme theme-name` inside OpenCode. See [Quick Installation](#quick-installation) for one-liner and script options.
+
+### How do I switch the active OpenCode theme?
+
+Run `/theme theme-name` inside OpenCode, or set `"theme": "theme-name"` in your `tui.json`. The theme name is the file name without `.json`.
+
+### Which themes look the same in light and dark mode?
+
+The fixed-palette themes — `cga`, `super-color`, `super-theme`, and `w95-classic` — render identically in light and dark mode to preserve the original hardware look. The rest adapt their palette to each mode.
+
+### Can I create my own OpenCode theme?
+
+Yes. Any of these JSON files is a good starting template — copy one, edit the `defs` palette and `theme` tokens, and drop it into `~/.config/opencode/themes/`. See the [official theme docs](https://opencode.ai/docs/themes/).
 
 ---
 
