@@ -8,6 +8,8 @@
 ![Themes](https://img.shields.io/badge/themes-13-success)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
+![The 13 Inume Opencode Retro Themes side by side](assets/cover.png)
+
 Classic machines, old CRT palettes, console dashboards, worn neon, and chunky UI nostalgia translated into modern OpenCode themes.
 
 </div>
@@ -34,7 +36,7 @@ Classic machines, old CRT palettes, console dashboards, worn neon, and chunky UI
 | [`silicon-trace`](themes/silicon-trace.json) | PCB circuits | Chip traces, green board, hardware lab |
 | [`faded-neon`](themes/faded-neon.json) | Worn neon | Dim glow, pink/green accents, late-night terminal |
 
-> **Fixed-palette themes.** `cga`, `dot-matrix`, `faded-neon`, `ibm-old-terminal`, `norton-commander`, `super-color`, `super-theme`, and `w95-classic` use a single fixed palette: their `dark` and `light` variants are identical, so they render the same regardless of your terminal's light/dark mode. This is intentional — it preserves the look of the original hardware (a CGA monitor, a Windows 95 desktop, or a Game Boy LCD didn't switch palettes; neither did a Norton Commander DOS screen, an IBM CRT phosphor display, or a worn neon sign). The remaining themes adapt: `silicon-trace`, `theme-cube`, and `theme-station-2` switch the whole palette with the mode, while `family-computheme` and `theme-station-1` keep a light background in both modes and only shift a few tokens.
+> **Fixed-palette themes.** Some themes keep the same palette in light and dark mode, just like the original hardware. See [which themes look the same in light and dark mode](#which-themes-look-the-same-in-light-and-dark-mode).
 
 ---
 
@@ -63,19 +65,11 @@ cd Inume-Opencode-Retro-Themes
 ./install.sh --project all      # install into ./.opencode/themes instead
 ```
 
-### Option C — Manual copy
-
-```bash
-git clone https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes.git
-mkdir -p ~/.config/opencode/themes
-cp Inume-Opencode-Retro-Themes/themes/theme-name.json ~/.config/opencode/themes/
-```
-
 ### Activate
 
 Inside OpenCode, run `/themes` to open the theme selector ("Switch theme"), then pick your theme from the list by name (the file name without `.json`):
 
-```bash
+```text
 /themes
 ```
 
@@ -109,91 +103,154 @@ Click a theme name to open its JSON source file.
 
 ### Classic Computers
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 #### [`w95-classic`](themes/w95-classic.json)
 
 Windows 95 teal, gray window chrome, and old desktop UI contrast.
 
-![W95 Classic preview](assets/screenshots/w95-classic-2.png)
+![W95 Classic preview](assets/screenshots/w95-classic.png)
+
+</td>
+<td width="50%" valign="top">
 
 #### [`norton-commander`](themes/norton-commander.json)
 
 Blue terminal panels inspired by the classic file-manager interface.
 
-![Norton Commander preview](assets/screenshots/norton-commander-2.png)
+![Norton Commander preview](assets/screenshots/norton-commander.png)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 #### [`ibm-old-terminal`](themes/ibm-old-terminal.json)
 
 Black screen, green phosphor, and minimal IBM terminal atmosphere.
 
-![IBM Old Terminal preview](assets/screenshots/ibm-old-terminal-2.png)
+![IBM Old Terminal preview](assets/screenshots/ibm-old-terminal.png)
+
+</td>
+<td width="50%" valign="top">
 
 #### [`cga`](themes/cga.json)
 
 Early PC color logic with bold cyan, dark contrast, and CGA-era sharpness.
 
-![CGA preview](assets/screenshots/cga-2.png)
+![CGA preview](assets/screenshots/cga.png)
+
+</td>
+</tr>
+</table>
 
 ---
 
 ### Consoles & Video Games
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 #### [`theme-station-1`](themes/theme-station-1.json)
 
 Soft PlayStation gray with muted contrast and a classic console surface.
 
-![Theme Station 1 preview](assets/screenshots/theme-station-1-2.png)
+![Theme Station 1 preview](assets/screenshots/theme-station-1.png)
+
+</td>
+<td width="50%" valign="top">
 
 #### [`theme-station-2`](themes/theme-station-2.json)
 
 Dark PS2-inspired palette with deep blacks and electric blue highlights.
 
-![Theme Station 2 preview](assets/screenshots/theme-station-2-1.png)
+![Theme Station 2 preview](assets/screenshots/theme-station-2.png)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 #### [`theme-cube`](themes/theme-cube.json)
 
 GameCube purple and console-era saturation with a playful hardware feel.
 
-![Theme Cube preview](assets/screenshots/theme-cube-2.png)
+![Theme Cube preview](assets/screenshots/theme-cube.png)
+
+</td>
+<td width="50%" valign="top">
 
 #### [`dot-matrix`](themes/dot-matrix.json)
 
 Game Boy pea-green LCD with four shades of dot-matrix contrast.
 
-![Dot Matrix preview](assets/screenshots/dot-matrix-2.png)
+![Dot Matrix preview](assets/screenshots/dot-matrix.png)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 #### [`family-computheme`](themes/family-computheme.json)
 
 Famicom cream and red, tuned for a warm vintage console look.
 
-![Family Computheme preview](assets/screenshots/family-computheme-2.png)
+![Family Computheme preview](assets/screenshots/family-computheme.png)
+
+</td>
+<td width="50%" valign="top">
 
 #### [`super-theme`](themes/super-theme.json)
 
 Classic SNES gray with restrained purple accents and readable contrast.
 
-![Super Theme preview](assets/screenshots/super-theme-2.png)
+![Super Theme preview](assets/screenshots/super-theme.png)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 #### [`super-color`](themes/super-color.json)
 
 SNES multicolor controls translated into a brighter terminal palette.
 
-![Super Color preview](assets/screenshots/super-color-2.png)
+![Super Color preview](assets/screenshots/super-color.png)
+
+</td>
+<td width="50%"></td>
+</tr>
+</table>
 
 ---
 
 ### Special Themes
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 #### [`silicon-trace`](themes/silicon-trace.json)
 
 Circuit-board greens and hardware-lab contrast for a PCB-inspired terminal.
 
-![Silicon Trace preview](assets/screenshots/silicon-trace-2.png)
+![Silicon Trace preview](assets/screenshots/silicon-trace.png)
+
+</td>
+<td width="50%" valign="top">
 
 #### [`faded-neon`](themes/faded-neon.json)
 
 Dim neon glow with worn pink and green accents for late-night sessions.
 
-![Faded Neon preview](assets/screenshots/faded-neon-2.png)
+![Faded Neon preview](assets/screenshots/faded-neon.png)
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -205,7 +262,7 @@ OpenCode is an open-source AI coding agent built for the terminal (a TUI), avail
 
 ### Are there retro or vintage themes for OpenCode?
 
-Yes. This repository provides 13 retro themes inspired by classic computers and game consoles, including Windows 95, the CGA palette, SNES, PlayStation 1 and 2, GameCube, Game Boy, Famicom, and IBM terminals.
+Yes. This repository provides retro themes inspired by classic computers and game consoles, including Windows 95, the CGA palette, SNES, PlayStation 1 and 2, GameCube, Game Boy, Famicom, and IBM terminals.
 
 ### How do I install an OpenCode theme?
 
