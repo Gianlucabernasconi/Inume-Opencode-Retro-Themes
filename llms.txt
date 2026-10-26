@@ -1,28 +1,38 @@
 # Inume Opencode Retro Themes
 
-> 13 free, MIT-licensed retro themes for OpenCode, the open-source terminal AI coding agent (TUI). Each theme recreates the look of classic hardware — Windows 95, CGA, SNES, PlayStation, GameCube, Game Boy, Famicom, IBM phosphor terminals, PCB circuit boards, and worn neon.
+> 13 free, MIT-licensed retro themes for OpenCode, the open-source terminal AI coding agent (TUI), by Gianluca Bernasconi. Each theme recreates the look of classic hardware and software — Windows 95, Norton Commander, IBM phosphor terminals, CGA, PlayStation 1 and 2, GameCube, Game Boy, Famicom, SNES, PCB circuit boards, and worn neon. Works on OpenCode 1.x and 2.x; last tested with OpenCode 2.0.21 (October 2026).
 
 Themes are JSON files dropped into `~/.config/opencode/themes/` and activated with `/themes` inside OpenCode (which opens the theme selector), or set as the default in `cli.json` with `"theme": { "name": "<name>" }` on OpenCode 2.x (`"theme": "<name>"` in `tui.json` on OpenCode 1.x).
+
+Every theme is validated on each push: OpenCode theme $schema, all 50 color tokens with dark and light variants, and a 1.8:1 contrast floor for key text/background pairs (a legibility floor, not WCAG).
+
+Install one theme without cloning (`theme-name` is any ID from the list below):
+
+```bash
+mkdir -p ~/.config/opencode/themes
+curl -fsSL https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/theme-name.json \
+  -o ~/.config/opencode/themes/theme-name.json
+```
 
 ## Key pages
 
 - [README](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/blob/main/README.md): theme list, screenshot gallery, and installation (one-liner or install script)
 - [Themes folder](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/tree/main/themes): the 13 JSON theme files
-- [Install script](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/blob/main/install.sh): interactive installer (`./install.sh`, `./install.sh all`, or specific theme names)
+- [Install script](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/blob/main/install.sh): interactive installer (`./install.sh`, `./install.sh all`, or specific theme names), or `--project` to install into `./.opencode/themes`
 - [OpenCode](https://opencode.ai/): the terminal AI coding agent these themes target
 
 ## Themes
 
-- w95-classic: Windows 95 — teal desktop, gray panels (fixed palette)
-- norton-commander: Norton Commander — blue file-manager terminal (fixed palette)
-- ibm-old-terminal: IBM PC terminal — green phosphor on black (fixed palette)
-- cga: CGA palette — early PC color, cyan/black (fixed palette)
-- theme-station-1: PlayStation 1 — pale gray shell
-- theme-station-2: PlayStation 2 — deep black, blue aura
-- theme-cube: Nintendo GameCube — purple hardware
-- dot-matrix: Nintendo Game Boy — four-shade pea-green LCD (fixed palette)
-- family-computheme: Nintendo Famicom — cream and red
-- super-theme: Super Nintendo — soft gray, purple accents (fixed palette)
-- super-color: SNES multicolor — brighter palette (fixed palette)
-- silicon-trace: PCB circuits — chip traces, green board
-- faded-neon: worn neon — dim pink/green glow (fixed palette)
+- [w95-classic](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/w95-classic.json): Windows 95 — teal desktop, gray panels (fixed palette)
+- [norton-commander](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/norton-commander.json): Norton Commander — blue file-manager terminal (fixed palette)
+- [ibm-old-terminal](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/ibm-old-terminal.json): IBM PC terminal — green phosphor on black (fixed palette)
+- [cga](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/cga.json): CGA palette — early PC color, cyan/black (fixed palette)
+- [theme-station-1](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/theme-station-1.json): PlayStation 1 — pale gray shell
+- [theme-station-2](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/theme-station-2.json): PlayStation 2 — deep black, blue aura
+- [theme-cube](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/theme-cube.json): Nintendo GameCube — purple hardware
+- [dot-matrix](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/dot-matrix.json): Nintendo Game Boy — four-shade pea-green LCD (fixed palette)
+- [family-computheme](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/family-computheme.json): Nintendo Famicom — cream and red
+- [super-theme](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/super-theme.json): Super Nintendo — soft gray, purple accents (fixed palette)
+- [super-color](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/super-color.json): SNES multicolor — brighter palette (fixed palette)
+- [silicon-trace](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/silicon-trace.json): PCB circuits — chip traces, green board
+- [faded-neon](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/faded-neon.json): worn neon — dim pink/green glow (fixed palette)

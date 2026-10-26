@@ -2,23 +2,28 @@
 
 # Inume Opencode Retro Themes
 
-**Retro console and classic computer themes for [OpenCode](https://opencode.ai/).**
+**English** · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md) · [Русский](README.ru.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
-![OpenCode](https://img.shields.io/badge/OpenCode-Themes-blue?logo=code)
-![Themes](https://img.shields.io/badge/themes-13-success)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
+**13 retro console and classic-computer themes for [OpenCode](https://opencode.ai/), the terminal AI coding agent.**
 
-![The 13 Inume Opencode Retro Themes side by side](assets/cover.png)
+[![OpenCode](https://img.shields.io/badge/OpenCode-Themes-blue)](https://opencode.ai/)
+[![Themes](https://img.shields.io/badge/themes-13-success)](#the-13-retro-themes)
+[![Validate Themes](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/actions/workflows/validate.yml/badge.svg)](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/actions/workflows/validate.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 
-Classic machines, old CRT palettes, console dashboards, worn neon, and chunky UI nostalgia translated into modern OpenCode themes.
+![Mosaic of the 13 OpenCode retro themes: Windows 95, Norton Commander, IBM terminal, CGA, PlayStation 1 and 2, GameCube, Game Boy, Famicom, SNES, PCB and neon](assets/cover.png)
+
+[Themes](#the-13-retro-themes) · [Gallery](#theme-gallery) · [Install](#install-the-themes-in-opencode) · [Activate](#activate-a-theme-in-opencode)
 
 </div>
 
 ---
 
-**Inume Opencode Retro Themes** is a collection of 13 free, MIT-licensed themes for [OpenCode](https://opencode.ai/), the open-source terminal AI coding agent (TUI). Each theme recreates the look of classic hardware — Windows 95, the CGA palette, SNES and PlayStation consoles, the Nintendo GameCube, Game Boy, and Famicom, IBM phosphor terminals, PCB circuit boards, and worn neon — packaged as JSON theme files you drop into `~/.config/opencode/themes/`.
+**Inume Opencode Retro Themes** is a collection of 13 free, MIT-licensed themes for [OpenCode](https://opencode.ai/), the open-source terminal AI coding agent (TUI). Each theme recreates the look of classic hardware and software — Windows 95, Norton Commander, IBM phosphor terminals, the CGA palette, PlayStation 1 and 2, the Nintendo GameCube, Game Boy, Famicom, and SNES, PCB circuit boards, and worn neon — packaged as JSON theme files you drop into `~/.config/opencode/themes/`. They work on OpenCode 1.x and 2.x, in dark and light mode, and were last tested with OpenCode 2.0.21 (October 2026).
 
-## Theme Lineup
+Every theme is checked on each push by [`scripts/validate.js`](scripts/validate.js): it must use the OpenCode theme `$schema`, define all 50 color tokens with dark and light variants (OpenCode 2 silently ignores themes that miss some of them), and keep key text/background pairs at a contrast ratio of at least 1.8:1. That ratio is a legibility floor, not a WCAG accessibility check.
+
+## The 13 Retro Themes
 
 | Theme | Inspiration | Mood |
 | --- | --- | --- |
@@ -31,8 +36,8 @@ Classic machines, old CRT palettes, console dashboards, worn neon, and chunky UI
 | [`theme-cube`](themes/theme-cube.json) | Nintendo GameCube | Purple hardware, playful console tone |
 | [`dot-matrix`](themes/dot-matrix.json) | Nintendo Game Boy | Pea-green LCD, four shades, handheld dot-matrix screen |
 | [`family-computheme`](themes/family-computheme.json) | Nintendo Famicom | Cream, red, and vintage Japanese hardware |
-| [`super-theme`](themes/super-theme.json) | Super Nintendo | Soft gray, purple accents, classic SNES |
-| [`super-color`](themes/super-color.json) | SNES multicolor | Brighter console palette, playful controls |
+| [`super-theme`](themes/super-theme.json) | Super Nintendo (SNES) | Soft gray, purple accents, classic SNES |
+| [`super-color`](themes/super-color.json) | SNES (Super Nintendo) multicolor | Brighter console palette, playful controls |
 | [`silicon-trace`](themes/silicon-trace.json) | PCB circuits | Chip traces, green board, hardware lab |
 | [`faded-neon`](themes/faded-neon.json) | Worn neon | Dim glow, pink/green accents, late-night terminal |
 
@@ -54,7 +59,7 @@ Click a theme name to open its JSON source file.
 
 Windows 95 teal, gray window chrome, and old desktop UI contrast.
 
-![W95 Classic preview](assets/screenshots/w95-classic.png)
+![OpenCode terminal UI with the w95-classic theme: Windows 95 teal desktop and gray panels](assets/screenshots/w95-classic.png)
 
 </td>
 <td width="50%" valign="top">
@@ -63,7 +68,7 @@ Windows 95 teal, gray window chrome, and old desktop UI contrast.
 
 Blue terminal panels inspired by the classic file-manager interface.
 
-![Norton Commander preview](assets/screenshots/norton-commander.png)
+![OpenCode terminal UI with the norton-commander theme: blue Norton Commander file-manager panels](assets/screenshots/norton-commander.png)
 
 </td>
 </tr>
@@ -74,7 +79,7 @@ Blue terminal panels inspired by the classic file-manager interface.
 
 Black screen, green phosphor, and minimal IBM terminal atmosphere.
 
-![IBM Old Terminal preview](assets/screenshots/ibm-old-terminal.png)
+![OpenCode terminal UI with the ibm-old-terminal theme: green phosphor text on a black IBM screen](assets/screenshots/ibm-old-terminal.png)
 
 </td>
 <td width="50%" valign="top">
@@ -83,7 +88,7 @@ Black screen, green phosphor, and minimal IBM terminal atmosphere.
 
 Early PC color logic with bold cyan, dark contrast, and CGA-era sharpness.
 
-![CGA preview](assets/screenshots/cga.png)
+![OpenCode terminal UI with the cga theme: CGA cyan, magenta and white on black](assets/screenshots/cga.png)
 
 </td>
 </tr>
@@ -101,7 +106,7 @@ Early PC color logic with bold cyan, dark contrast, and CGA-era sharpness.
 
 Soft PlayStation gray with muted contrast and a classic console surface.
 
-![Theme Station 1 preview](assets/screenshots/theme-station-1.png)
+![OpenCode terminal UI with the theme-station-1 theme: pale gray PlayStation 1 palette](assets/screenshots/theme-station-1.png)
 
 </td>
 <td width="50%" valign="top">
@@ -110,7 +115,7 @@ Soft PlayStation gray with muted contrast and a classic console surface.
 
 Dark PS2-inspired palette with deep blacks and electric blue highlights.
 
-![Theme Station 2 preview](assets/screenshots/theme-station-2.png)
+![OpenCode terminal UI with the theme-station-2 theme: deep black PlayStation 2 palette with blue-green highlights](assets/screenshots/theme-station-2.png)
 
 </td>
 </tr>
@@ -121,7 +126,7 @@ Dark PS2-inspired palette with deep blacks and electric blue highlights.
 
 GameCube purple and console-era saturation with a playful hardware feel.
 
-![Theme Cube preview](assets/screenshots/theme-cube.png)
+![OpenCode terminal UI with the theme-cube theme: Nintendo GameCube purple](assets/screenshots/theme-cube.png)
 
 </td>
 <td width="50%" valign="top">
@@ -130,7 +135,7 @@ GameCube purple and console-era saturation with a playful hardware feel.
 
 Game Boy pea-green LCD with four shades of dot-matrix contrast.
 
-![Dot Matrix preview](assets/screenshots/dot-matrix.png)
+![OpenCode terminal UI with the dot-matrix theme: four-shade green Game Boy LCD](assets/screenshots/dot-matrix.png)
 
 </td>
 </tr>
@@ -141,7 +146,7 @@ Game Boy pea-green LCD with four shades of dot-matrix contrast.
 
 Famicom cream and red, tuned for a warm vintage console look.
 
-![Family Computheme preview](assets/screenshots/family-computheme.png)
+![OpenCode terminal UI with the family-computheme theme: Famicom cream and red](assets/screenshots/family-computheme.png)
 
 </td>
 <td width="50%" valign="top">
@@ -150,7 +155,7 @@ Famicom cream and red, tuned for a warm vintage console look.
 
 Classic SNES gray with restrained purple accents and readable contrast.
 
-![Super Theme preview](assets/screenshots/super-theme.png)
+![OpenCode terminal UI with the super-theme theme: Super Nintendo gray with purple accents](assets/screenshots/super-theme.png)
 
 </td>
 </tr>
@@ -161,7 +166,7 @@ Classic SNES gray with restrained purple accents and readable contrast.
 
 SNES multicolor controls translated into a brighter terminal palette.
 
-![Super Color preview](assets/screenshots/super-color.png)
+![OpenCode terminal UI with the super-color theme: bright SNES multicolor palette](assets/screenshots/super-color.png)
 
 </td>
 <td width="50%"></td>
@@ -170,7 +175,7 @@ SNES multicolor controls translated into a brighter terminal palette.
 
 ---
 
-### Special Themes
+### Circuit Board & Neon
 
 <table>
 <tr>
@@ -180,7 +185,7 @@ SNES multicolor controls translated into a brighter terminal palette.
 
 Circuit-board greens and hardware-lab contrast for a PCB-inspired terminal.
 
-![Silicon Trace preview](assets/screenshots/silicon-trace.png)
+![OpenCode terminal UI with the silicon-trace theme: green PCB circuit board with copper traces](assets/screenshots/silicon-trace.png)
 
 </td>
 <td width="50%" valign="top">
@@ -189,7 +194,7 @@ Circuit-board greens and hardware-lab contrast for a PCB-inspired terminal.
 
 Dim neon glow with worn pink and green accents for late-night sessions.
 
-![Faded Neon preview](assets/screenshots/faded-neon.png)
+![OpenCode terminal UI with the faded-neon theme: dim mint and pink neon on a dark background](assets/screenshots/faded-neon.png)
 
 </td>
 </tr>
@@ -197,7 +202,7 @@ Dim neon glow with worn pink and green accents for late-night sessions.
 
 ---
 
-## Quick Installation
+## Install the Themes in OpenCode
 
 ### Option A — One-liner (no clone)
 
@@ -222,7 +227,7 @@ cd Inume-Opencode-Retro-Themes
 ./install.sh --project all      # install into ./.opencode/themes instead
 ```
 
-### Activate
+### Activate a Theme in OpenCode
 
 Inside OpenCode, run `/themes` to open the theme selector ("Switch theme"), then pick your theme from the list by name (the file name without `.json`):
 
@@ -256,4 +261,4 @@ OpenCode loads custom themes from `~/.config/opencode/themes/`, `<project-root>/
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE) © 2026 [Gianluca Bernasconi](https://github.com/Gianlucabernasconi)
