@@ -7,7 +7,6 @@
     "famicomRed": "#8B0014",
     "redGloss": "#B3142A",
     "redDeep": "#4A000B",
-    "controllerGold": "#C8B58F",
     "metalLight": "#E1D6BF",
     "ink": "#211C18",
     "inkMuted": "#756B5A",
@@ -25,8 +24,8 @@
       "light": "famicomRed"
     },
     "secondary": {
-      "dark": "controllerGold",
-      "light": "controllerGold"
+      "dark": "#93815C",
+      "light": "#998762"
     },
     "accent": {
       "dark": "redGloss",

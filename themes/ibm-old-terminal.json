@@ -17,7 +17,7 @@
   "theme": {
     "primary": {
       "dark": "phosphor",
-      "light": "phosphorSoft"
+      "light": "phosphor"
     },
     "secondary": {
       "dark": "phosphorDim",
@@ -69,11 +69,11 @@
     },
     "borderActive": {
       "dark": "phosphor",
-      "light": "phosphorSoft"
+      "light": "phosphor"
     },
     "borderSubtle": {
       "dark": "scanline",
-      "light": "terminalLine"
+      "light": "scanline"
     },
     "diffAdded": {
       "dark": "success",
@@ -93,7 +93,7 @@
     },
     "diffHighlightAdded": {
       "dark": "phosphor",
-      "light": "phosphorSoft"
+      "light": "phosphor"
     },
     "diffHighlightRemoved": {
       "dark": "error",
@@ -101,11 +101,11 @@
     },
     "diffAddedBg": {
       "dark": "#0B2511",
-      "light": "#DCEADB"
+      "light": "#0B2511"
     },
     "diffRemovedBg": {
       "dark": "#2B0F0B",
-      "light": "#EAD8D4"
+      "light": "#2B0F0B"
     },
     "diffContextBg": {
       "dark": "crtBlack",
@@ -117,11 +117,11 @@
     },
     "diffAddedLineNumberBg": {
       "dark": "#0B2511",
-      "light": "#DCEADB"
+      "light": "#0B2511"
     },
     "diffRemovedLineNumberBg": {
       "dark": "#2B0F0B",
-      "light": "#EAD8D4"
+      "light": "#2B0F0B"
     },
     "markdownText": {
       "dark": "phosphor",
@@ -133,7 +133,7 @@
     },
     "markdownLink": {
       "dark": "phosphorSoft",
-      "light": "phosphorDim"
+      "light": "phosphorSoft"
     },
     "markdownLinkText": {
       "dark": "amberLed",
@@ -161,7 +161,7 @@
     },
     "markdownListItem": {
       "dark": "phosphorSoft",
-      "light": "phosphorDim"
+      "light": "phosphorSoft"
     },
     "markdownListEnumeration": {
       "dark": "phosphor",
@@ -173,7 +173,7 @@
     },
     "markdownImageText": {
       "dark": "phosphorSoft",
-      "light": "phosphorDim"
+      "light": "phosphorSoft"
     },
     "markdownCodeBlock": {
       "dark": "phosphor",
@@ -185,7 +185,7 @@
     },
     "syntaxKeyword": {
       "dark": "phosphor",
-      "light": "phosphorDim"
+      "light": "phosphor"
     },
     "syntaxFunction": {
       "dark": "phosphorSoft",
@@ -201,7 +201,7 @@
     },
     "syntaxNumber": {
       "dark": "phosphorSoft",
-      "light": "phosphorDim"
+      "light": "phosphorSoft"
     },
     "syntaxType": {
       "dark": "phosphor",

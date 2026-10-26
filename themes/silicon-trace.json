@@ -40,7 +40,7 @@
     },
     "warning": {
       "dark": "warning",
-      "light": "warning"
+      "light": "#9F7F1D"
     },
     "success": {
       "dark": "success",
@@ -48,7 +48,7 @@
     },
     "info": {
       "dark": "info",
-      "light": "info"
+      "light": "#7B8782"
     },
     "text": {
       "dark": "text",
@@ -195,8 +195,8 @@
       "light": "pcbMask"
     },
     "syntaxFunction": {
-      "dark": "solderBright",
-      "light": "chipBlack"
+      "dark": "copper",
+      "light": "#B8753F"
     },
     "syntaxVariable": {
       "dark": "text",
@@ -208,7 +208,7 @@
     },
     "syntaxNumber": {
       "dark": "resistorInk",
-      "light": "resistorInk"
+      "light": "#9F7F1D"
     },
     "syntaxType": {
       "dark": "solder",

@@ -31,7 +31,7 @@
     },
     "accent": {
       "dark": "buttonC",
-      "light": "buttonC"
+      "light": "#957600"
     },
     "error": {
       "dark": "error",
@@ -39,7 +39,7 @@
     },
     "warning": {
       "dark": "warning",
-      "light": "warning"
+      "light": "#967603"
     },
     "success": {
       "dark": "success",
@@ -47,7 +47,7 @@
     },
     "info": {
       "dark": "info",
-      "light": "info"
+      "light": "#79797D"
     },
     "text": {
       "dark": "logoText",
@@ -143,11 +143,11 @@
     },
     "markdownLinkText": {
       "dark": "buttonC",
-      "light": "buttonC"
+      "light": "#A98606"
     },
     "markdownCode": {
       "dark": "buttonC",
-      "light": "buttonC"
+      "light": "#A98606"
     },
     "markdownBlockQuote": {
       "dark": "engraved",
@@ -155,7 +155,7 @@
     },
     "markdownEmph": {
       "dark": "buttonC",
-      "light": "buttonC"
+      "light": "#A98606"
     },
     "markdownStrong": {
       "dark": "buttonWhite",
@@ -175,7 +175,7 @@
     },
     "markdownImage": {
       "dark": "buttonC",
-      "light": "buttonC"
+      "light": "#A98606"
     },
     "markdownImageText": {
       "dark": "buttonZ",
@@ -191,7 +191,7 @@
     },
     "syntaxKeyword": {
       "dark": "buttonZ",
-      "light": "discBlack"
+      "light": "cubeEdge"
     },
     "syntaxFunction": {
       "dark": "buttonWhite",
@@ -207,7 +207,7 @@
     },
     "syntaxNumber": {
       "dark": "buttonC",
-      "light": "buttonC"
+      "light": "#957600"
     },
     "syntaxType": {
       "dark": "buttonZ",

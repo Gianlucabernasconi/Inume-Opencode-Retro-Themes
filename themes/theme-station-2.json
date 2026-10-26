@@ -33,8 +33,8 @@
       "light": "#8C5D69"
     },
     "warning": {
-      "dark": "circle",
-      "light": "square"
+      "dark": "#C8A04C",
+      "light": "#82566F"
     },
     "success": {
       "dark": "success",
@@ -89,7 +89,7 @@
       "light": "faded"
     },
     "diffHunkHeader": {
-      "dark": "worn",
+      "dark": "faded",
       "light": "worn"
     },
     "diffHighlightAdded": {
@@ -113,7 +113,7 @@
       "light": "#F0F0F5"
     },
     "diffLineNumber": {
-      "dark": "worn",
+      "dark": "faded",
       "light": "worn"
     },
     "diffAddedLineNumberBg": {
@@ -145,7 +145,7 @@
       "light": "#6E76A8"
     },
     "markdownBlockQuote": {
-      "dark": "worn",
+      "dark": "faded",
       "light": "worn"
     },
     "markdownEmph": {
@@ -181,7 +181,7 @@
       "light": "plastic"
     },
     "syntaxComment": {
-      "dark": "worn",
+      "dark": "faded",
       "light": "worn"
     },
     "syntaxKeyword": {

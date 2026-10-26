@@ -44,7 +44,7 @@
     },
     "text": {
       "dark": "text",
-      "light": "bg"
+      "light": "text"
     },
     "textMuted": {
       "dark": "neutral",
@@ -52,7 +52,7 @@
     },
     "background": {
       "dark": "bg",
-      "light": "text"
+      "light": "bg"
     },
     "backgroundPanel": {
       "dark": "surface",
@@ -100,11 +100,11 @@
     },
     "diffAddedBg": {
       "dark": "#0d1f14",
-      "light": "#e8f5e8"
+      "light": "#0d1f14"
     },
     "diffRemovedBg": {
       "dark": "#1f0d14",
-      "light": "#f5e8e8"
+      "light": "#1f0d14"
     },
     "diffContextBg": {
       "dark": "surface",
@@ -116,15 +116,15 @@
     },
     "diffAddedLineNumberBg": {
       "dark": "#0d1f14",
-      "light": "#e8f5e8"
+      "light": "#0d1f14"
     },
     "diffRemovedLineNumberBg": {
       "dark": "#1f0d14",
-      "light": "#f5e8e8"
+      "light": "#1f0d14"
     },
     "markdownText": {
       "dark": "text",
-      "light": "bg"
+      "light": "text"
     },
     "markdownHeading": {
       "dark": "accent",
@@ -176,7 +176,7 @@
     },
     "markdownCodeBlock": {
       "dark": "text",
-      "light": "bg"
+      "light": "text"
     },
     "syntaxComment": {
       "dark": "neutral",
@@ -192,7 +192,7 @@
     },
     "syntaxVariable": {
       "dark": "text",
-      "light": "bg"
+      "light": "text"
     },
     "syntaxString": {
       "dark": "warm",

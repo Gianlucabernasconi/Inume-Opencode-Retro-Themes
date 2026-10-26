@@ -11,12 +11,8 @@
     "buttonBlack": "#171717",
     "triangle": "#22827C",
     "circle": "#BC7D89",
-    "square": "#CB9AB5",
-    "cross": "#A3ABD9",
     "success": "#22827C",
-    "warning": "#C8A04C",
-    "error": "#BC7D89",
-    "info": "#A3ABD9"
+    "error": "#BC7D89"
   },
   "theme": {
     "primary": {
@@ -24,28 +20,28 @@
       "light": "triangle"
     },
     "secondary": {
-      "dark": "cross",
-      "light": "cross"
+      "dark": "#5A608A",
+      "light": "#656C96"
     },
     "accent": {
-      "dark": "square",
-      "light": "square"
+      "dark": "#81556E",
+      "light": "#8D607A"
     },
     "error": {
-      "dark": "circle",
+      "dark": "#8C515D",
       "light": "circle"
     },
     "warning": {
-      "dark": "warning",
-      "light": "warning"
+      "dark": "#7F5D01",
+      "light": "#8D6802"
     },
     "success": {
       "dark": "success",
       "light": "success"
     },
     "info": {
-      "dark": "info",
-      "light": "info"
+      "dark": "#5A608A",
+      "light": "#656C96"
     },
     "text": {
       "dark": "print",
@@ -100,7 +96,7 @@
       "light": "triangle"
     },
     "diffHighlightRemoved": {
-      "dark": "circle",
+      "dark": "#8E535F",
       "light": "circle"
     },
     "diffAddedBg": {
@@ -140,8 +136,8 @@
       "light": "triangle"
     },
     "markdownLinkText": {
-      "dark": "square",
-      "light": "square"
+      "dark": "#81556E",
+      "light": "#9A6C85"
     },
     "markdownCode": {
       "dark": "triangle",
@@ -152,8 +148,8 @@
       "light": "slot"
     },
     "markdownEmph": {
-      "dark": "square",
-      "light": "square"
+      "dark": "#81556E",
+      "light": "#9A6C85"
     },
     "markdownStrong": {
       "dark": "buttonBlack",
@@ -164,16 +160,16 @@
       "light": "groove"
     },
     "markdownListItem": {
-      "dark": "cross",
-      "light": "cross"
+      "dark": "#5A608A",
+      "light": "#7077A2"
     },
     "markdownListEnumeration": {
       "dark": "triangle",
       "light": "triangle"
     },
     "markdownImage": {
-      "dark": "square",
-      "light": "square"
+      "dark": "#81556E",
+      "light": "#9A6C85"
     },
     "markdownImageText": {
       "dark": "triangle",
@@ -200,16 +196,16 @@
       "light": "print"
     },
     "syntaxString": {
-      "dark": "square",
-      "light": "square"
+      "dark": "#8D607A",
+      "light": "#8D607A"
     },
     "syntaxNumber": {
       "dark": "triangle",
       "light": "triangle"
     },
     "syntaxType": {
-      "dark": "cross",
-      "light": "cross"
+      "dark": "#656C96",
+      "light": "#656C96"
     },
     "syntaxOperator": {
       "dark": "circle",

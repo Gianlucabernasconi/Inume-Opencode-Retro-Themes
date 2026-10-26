@@ -50,7 +50,7 @@
     },
     "text": {
       "dark": "textCyan",
-      "light": "dosBlack"
+      "light": "textCyan"
     },
     "textMuted": {
       "dark": "mutedBlue",
@@ -58,19 +58,19 @@
     },
     "background": {
       "dark": "dosBlack",
-      "light": "keyWhite"
+      "light": "dosBlack"
     },
     "backgroundPanel": {
       "dark": "panelBlue",
-      "light": "textCyan"
+      "light": "panelBlue"
     },
     "backgroundElement": {
       "dark": "shadowBlue",
-      "light": "borderCyan"
+      "light": "shadowBlue"
     },
     "border": {
       "dark": "borderCyan",
-      "light": "panelBlue"
+      "light": "borderCyan"
     },
     "borderActive": {
       "dark": "headingYellow",
@@ -78,7 +78,7 @@
     },
     "borderSubtle": {
       "dark": "shadowBlue",
-      "light": "mutedBlue"
+      "light": "shadowBlue"
     },
     "diffAdded": {
       "dark": "success",
@@ -90,7 +90,7 @@
     },
     "diffContext": {
       "dark": "textCyan",
-      "light": "dosBlack"
+      "light": "textCyan"
     },
     "diffHunkHeader": {
       "dark": "headingYellow",
@@ -106,15 +106,15 @@
     },
     "diffAddedBg": {
       "dark": "#003800",
-      "light": "#DDFBDD"
+      "light": "#003800"
     },
     "diffRemovedBg": {
       "dark": "#380000",
-      "light": "#FBDDDD"
+      "light": "#380000"
     },
     "diffContextBg": {
       "dark": "panelBlue",
-      "light": "textCyan"
+      "light": "panelBlue"
     },
     "diffLineNumber": {
       "dark": "dosGray",
@@ -122,15 +122,15 @@
     },
     "diffAddedLineNumberBg": {
       "dark": "#003800",
-      "light": "#DDFBDD"
+      "light": "#003800"
     },
     "diffRemovedLineNumberBg": {
       "dark": "#380000",
-      "light": "#FBDDDD"
+      "light": "#380000"
     },
     "markdownText": {
       "dark": "textCyan",
-      "light": "dosBlack"
+      "light": "textCyan"
     },
     "markdownHeading": {
       "dark": "headingYellow",
@@ -138,7 +138,7 @@
     },
     "markdownLink": {
       "dark": "borderCyan",
-      "light": "panelBlue"
+      "light": "borderCyan"
     },
     "markdownLinkText": {
       "dark": "headingYellow",
@@ -146,7 +146,7 @@
     },
     "markdownCode": {
       "dark": "keyWhite",
-      "light": "dosBlack"
+      "light": "keyWhite"
     },
     "markdownBlockQuote": {
       "dark": "dosGray",
@@ -158,11 +158,11 @@
     },
     "markdownStrong": {
       "dark": "keyWhite",
-      "light": "dosBlack"
+      "light": "keyWhite"
     },
     "markdownHorizontalRule": {
       "dark": "borderCyan",
-      "light": "panelBlue"
+      "light": "borderCyan"
     },
     "markdownListItem": {
       "dark": "selectionCyan",
@@ -178,11 +178,11 @@
     },
     "markdownImageText": {
       "dark": "borderCyan",
-      "light": "panelBlue"
+      "light": "borderCyan"
     },
     "markdownCodeBlock": {
       "dark": "textCyan",
-      "light": "dosBlack"
+      "light": "textCyan"
     },
     "syntaxComment": {
       "dark": "mutedBlue",
@@ -194,11 +194,11 @@
     },
     "syntaxFunction": {
       "dark": "keyWhite",
-      "light": "dosBlack"
+      "light": "keyWhite"
     },
     "syntaxVariable": {
       "dark": "textCyan",
-      "light": "dosBlack"
+      "light": "textCyan"
     },
     "syntaxString": {
       "dark": "dosGreen",
@@ -210,7 +210,7 @@
     },
     "syntaxType": {
       "dark": "borderCyan",
-      "light": "panelBlue"
+      "light": "borderCyan"
     },
     "syntaxOperator": {
       "dark": "headingYellow",

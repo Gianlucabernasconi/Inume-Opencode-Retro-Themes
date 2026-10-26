@@ -10,7 +10,7 @@
     "text": "#FFFFFF",
     "success": "#00FF00",
     "error": "#FF0000",
-    "warning": "#00FFFF",
+    "warning": "#FFFF55",
     "info": "#00FFFF",
     "cgaMagenta": "#FF00FF",
     "cgaGreen": "#00FF00"
