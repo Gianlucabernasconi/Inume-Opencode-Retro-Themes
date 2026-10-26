@@ -5,7 +5,7 @@
 **Retro console and classic computer themes for [OpenCode](https://opencode.ai/).**
 
 ![OpenCode](https://img.shields.io/badge/OpenCode-Themes-blue?logo=code)
-![Themes](https://img.shields.io/badge/themes-12-success)
+![Themes](https://img.shields.io/badge/themes-13-success)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 Classic machines, old CRT palettes, console dashboards, worn neon, and chunky UI nostalgia translated into modern OpenCode themes.
@@ -14,7 +14,7 @@ Classic machines, old CRT palettes, console dashboards, worn neon, and chunky UI
 
 ---
 
-**Inume Opencode Retro Themes** is a collection of 12 free, MIT-licensed themes for [OpenCode](https://opencode.ai/), the open-source terminal AI coding agent (TUI). Each theme recreates the look of classic hardware — Windows 95, the CGA palette, SNES and PlayStation consoles, the Nintendo GameCube and Famicom, IBM phosphor terminals, PCB circuit boards, and worn neon — packaged as JSON theme files you drop into `~/.config/opencode/themes/`.
+**Inume Opencode Retro Themes** is a collection of 13 free, MIT-licensed themes for [OpenCode](https://opencode.ai/), the open-source terminal AI coding agent (TUI). Each theme recreates the look of classic hardware — Windows 95, the CGA palette, SNES and PlayStation consoles, the Nintendo GameCube, Game Boy, and Famicom, IBM phosphor terminals, PCB circuit boards, and worn neon — packaged as JSON theme files you drop into `~/.config/opencode/themes/`.
 
 ## Theme Lineup
 
@@ -27,13 +27,14 @@ Classic machines, old CRT palettes, console dashboards, worn neon, and chunky UI
 | [`theme-station-1`](themes/theme-station-1.json) | PlayStation 1 | Pale gray shell, muted UI, classic console feel |
 | [`theme-station-2`](themes/theme-station-2.json) | PlayStation 2 | Deep black, blue aura, dark console boot energy |
 | [`theme-cube`](themes/theme-cube.json) | Nintendo GameCube | Purple hardware, playful console tone |
+| [`dot-matrix`](themes/dot-matrix.json) | Nintendo Game Boy | Pea-green LCD, four shades, handheld dot-matrix screen |
 | [`family-computheme`](themes/family-computheme.json) | Nintendo Famicom | Cream, red, and vintage Japanese hardware |
 | [`super-theme`](themes/super-theme.json) | Super Nintendo | Soft gray, purple accents, classic SNES |
 | [`super-color`](themes/super-color.json) | SNES multicolor | Brighter console palette, playful controls |
 | [`silicon-trace`](themes/silicon-trace.json) | PCB circuits | Chip traces, green board, hardware lab |
 | [`faded-neon`](themes/faded-neon.json) | Worn neon | Dim glow, pink/green accents, late-night terminal |
 
-> **Fixed-palette themes.** `cga`, `super-color`, `super-theme`, and `w95-classic` use a single fixed palette: their `dark` and `light` variants are identical, so they render the same regardless of your terminal's light/dark mode. This is intentional — it preserves the look of the original hardware (a CGA monitor or a Windows 95 desktop didn't switch palettes). The remaining themes adapt their palette to each mode.
+> **Fixed-palette themes.** `cga`, `dot-matrix`, `super-color`, `super-theme`, and `w95-classic` use a single fixed palette: their `dark` and `light` variants are identical, so they render the same regardless of your terminal's light/dark mode. This is intentional — it preserves the look of the original hardware (a CGA monitor, a Windows 95 desktop, or a Game Boy LCD didn't switch palettes). The remaining themes adapt their palette to each mode.
 
 ---
 
@@ -143,6 +144,10 @@ GameCube purple and console-era saturation with a playful hardware feel.
 
 ![Theme Cube preview](assets/screenshots/theme-cube-2.png)
 
+#### [`dot-matrix`](themes/dot-matrix.json)
+
+Game Boy pea-green LCD with four shades of dot-matrix contrast.
+
 #### [`family-computheme`](themes/family-computheme.json)
 
 Famicom cream and red, tuned for a warm vintage console look.
@@ -187,7 +192,7 @@ OpenCode is an open-source AI coding agent built for the terminal (a TUI), avail
 
 ### Are there retro or vintage themes for OpenCode?
 
-Yes. This repository provides 12 retro themes inspired by classic computers and game consoles, including Windows 95, the CGA palette, SNES, PlayStation 1 and 2, GameCube, Famicom, and IBM terminals.
+Yes. This repository provides 13 retro themes inspired by classic computers and game consoles, including Windows 95, the CGA palette, SNES, PlayStation 1 and 2, GameCube, Game Boy, Famicom, and IBM terminals.
 
 ### How do I install an OpenCode theme?
 
@@ -199,7 +204,7 @@ Run `/theme theme-name` inside OpenCode, or set `"theme": "theme-name"` in your 
 
 ### Which themes look the same in light and dark mode?
 
-The fixed-palette themes — `cga`, `super-color`, `super-theme`, and `w95-classic` — render identically in light and dark mode to preserve the original hardware look. The rest adapt their palette to each mode.
+The fixed-palette themes — `cga`, `dot-matrix`, `super-color`, `super-theme`, and `w95-classic` — render identically in light and dark mode to preserve the original hardware look. The rest adapt their palette to each mode.
 
 ### Can I create my own OpenCode theme?
 
