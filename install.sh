@@ -96,7 +96,7 @@ done
 
 echo
 if [ "$installed" -gt 0 ]; then
-  echo "Instalados $installed tema(s). Actívalos en OpenCode con:  /theme <nombre>"
+  echo "Instalados $installed tema(s). Actívalos en OpenCode con /themes (o theme.name en cli.json)"
 else
   echo "No se instaló ningún tema."
   exit 1

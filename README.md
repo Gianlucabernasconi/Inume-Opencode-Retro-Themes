@@ -34,7 +34,7 @@ Classic machines, old CRT palettes, console dashboards, worn neon, and chunky UI
 | [`silicon-trace`](themes/silicon-trace.json) | PCB circuits | Chip traces, green board, hardware lab |
 | [`faded-neon`](themes/faded-neon.json) | Worn neon | Dim glow, pink/green accents, late-night terminal |
 
-> **Fixed-palette themes.** `cga`, `dot-matrix`, `super-color`, `super-theme`, and `w95-classic` use a single fixed palette: their `dark` and `light` variants are identical, so they render the same regardless of your terminal's light/dark mode. This is intentional — it preserves the look of the original hardware (a CGA monitor, a Windows 95 desktop, or a Game Boy LCD didn't switch palettes). The remaining themes adapt their palette to each mode.
+> **Fixed-palette themes.** `cga`, `dot-matrix`, `faded-neon`, `ibm-old-terminal`, `norton-commander`, `super-color`, `super-theme`, and `w95-classic` use a single fixed palette: their `dark` and `light` variants are identical, so they render the same regardless of your terminal's light/dark mode. This is intentional — it preserves the look of the original hardware (a CGA monitor, a Windows 95 desktop, or a Game Boy LCD didn't switch palettes; neither did a Norton Commander DOS screen, an IBM CRT phosphor display, or a worn neon sign). The remaining themes adapt: `silicon-trace`, `theme-cube`, and `theme-station-2` switch the whole palette with the mode, while `family-computheme` and `theme-station-1` keep a light background in both modes and only shift a few tokens.
 
 ---
 
@@ -73,13 +73,22 @@ cp Inume-Opencode-Retro-Themes/themes/theme-name.json ~/.config/opencode/themes/
 
 ### Activate
 
-Inside OpenCode, switch to a theme by name (the file name without `.json`):
+Inside OpenCode, run `/themes` to open the theme selector ("Switch theme"), then pick your theme from the list by name (the file name without `.json`):
 
 ```bash
-/theme theme-name
+/themes
 ```
 
-Or set it as your default theme in `tui.json`:
+Or set it as your default theme in `cli.json` (OpenCode 2.x):
+
+```json
+{
+  "$schema": "https://opencode.ai/v2/cli.json",
+  "theme": { "name": "theme-name" }
+}
+```
+
+On OpenCode 1.x, the default theme goes in `tui.json` instead:
 
 ```json
 {
@@ -87,6 +96,8 @@ Or set it as your default theme in `tui.json`:
   "theme": "theme-name"
 }
 ```
+
+OpenCode 2.x reads `tui.json` only once, to migrate it into `cli.json`.
 
 OpenCode loads custom themes from `~/.config/opencode/themes/`, `<project-root>/.opencode/themes/`, and `./.opencode/themes/`. Later directories take precedence.
 
@@ -148,6 +159,8 @@ GameCube purple and console-era saturation with a playful hardware feel.
 
 Game Boy pea-green LCD with four shades of dot-matrix contrast.
 
+![Dot Matrix preview](assets/screenshots/dot-matrix-2.png)
+
 #### [`family-computheme`](themes/family-computheme.json)
 
 Famicom cream and red, tuned for a warm vintage console look.
@@ -196,15 +209,15 @@ Yes. This repository provides 13 retro themes inspired by classic computers and 
 
 ### How do I install an OpenCode theme?
 
-Copy any theme JSON file into `~/.config/opencode/themes/`, then run `/theme theme-name` inside OpenCode. See [Quick Installation](#quick-installation) for one-liner and script options.
+Copy any theme JSON file into `~/.config/opencode/themes/`, then run `/themes` inside OpenCode and pick it from the selector. See [Quick Installation](#quick-installation) for one-liner and script options.
 
 ### How do I switch the active OpenCode theme?
 
-Run `/theme theme-name` inside OpenCode, or set `"theme": "theme-name"` in your `tui.json`. The theme name is the file name without `.json`.
+Run `/themes` inside OpenCode and choose the theme from the selector, or set it as your default in `cli.json` with `"theme": { "name": "theme-name" }` (OpenCode 2.x) or in `tui.json` with `"theme": "theme-name"` (OpenCode 1.x). The theme name is the file name without `.json`.
 
 ### Which themes look the same in light and dark mode?
 
-The fixed-palette themes — `cga`, `dot-matrix`, `super-color`, `super-theme`, and `w95-classic` — render identically in light and dark mode to preserve the original hardware look. The rest adapt their palette to each mode.
+The fixed-palette themes — `cga`, `dot-matrix`, `faded-neon`, `ibm-old-terminal`, `norton-commander`, `super-color`, `super-theme`, and `w95-classic` — render identically in light and dark mode to preserve the original hardware look. The rest change their palette according to the mode: `silicon-trace`, `theme-cube`, and `theme-station-2` switch the whole palette, while `family-computheme` and `theme-station-1` keep a light background in both modes and only adjust a few tokens.
 
 ### Can I create my own OpenCode theme?
 
