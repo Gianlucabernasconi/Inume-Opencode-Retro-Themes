@@ -6,7 +6,7 @@ Themes are JSON files dropped into `~/.config/opencode/themes/` and activated wi
 
 ## Key pages
 
-- [README](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/blob/main/README.md): theme list, installation (one-liner or install script), and FAQ
+- [README](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/blob/main/README.md): theme list, screenshot gallery, and installation (one-liner or install script)
 - [Themes folder](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/tree/main/themes): the 13 JSON theme files
 - [Install script](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/blob/main/install.sh): interactive installer (`./install.sh`, `./install.sh all`, or specific theme names)
 - [OpenCode](https://opencode.ai/): the terminal AI coding agent these themes target
