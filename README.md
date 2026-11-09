@@ -13,6 +13,8 @@
 
 Also known as: Inume Opencode Retro Themes (repo slug y nombre histórico).
 
+Live showcase: [opencode-retro-themes.netlify.app](https://opencode-retro-themes.netlify.app) — compare the 13 palettes rendered with their real color tokens before installing.
+
 ![Mosaic of the 13 OpenCode retro themes: Windows 95, Norton Commander, IBM terminal, CGA, PlayStation 1 and 2, GameCube, Game Boy, Famicom, SNES, PCB and neon](assets/cover.png)
 
 [Themes](#the-13-retro-themes) · [Gallery](#theme-gallery) · [Install](#install-the-themes-in-opencode) · [Activate](#activate-a-theme-in-opencode)
