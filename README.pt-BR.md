@@ -1,6 +1,6 @@
 <div align="center">
 
-# Inume Opencode Retro Themes
+# Inume Retro Themes
 
 [English](README.md) · [Español](README.es.md) · **Português (Brasil)** · [Français](README.fr.md) · [Русский](README.ru.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
@@ -19,7 +19,7 @@
 
 ---
 
-**Inume Opencode Retro Themes** é uma coleção de 13 temas gratuitos, licenciados sob MIT, para o [OpenCode](https://opencode.ai/), o agente de programação com IA de código aberto para terminal (TUI). Cada tema recria a aparência de hardware e software clássicos — Windows 95, Norton Commander, terminais de fósforo IBM, a paleta CGA, PlayStation 1 e 2, o Nintendo GameCube, Game Boy, Famicom e SNES, placas de circuito PCB e neon desgastado — e vem como um arquivo de tema JSON que você coloca em `~/.config/opencode/themes/`. Eles funcionam no OpenCode 1.x e 2.x, nos modos escuro e claro, e foram testados pela última vez com o OpenCode 2.0.21 (outubro de 2026).
+**Inume Retro Themes** é uma coleção de 13 temas gratuitos, licenciados sob MIT, para o [OpenCode](https://opencode.ai/), o agente de programação com IA de código aberto para terminal (TUI). Cada tema recria a aparência de hardware e software clássicos — Windows 95, Norton Commander, terminais de fósforo IBM, a paleta CGA, PlayStation 1 e 2, o Nintendo GameCube, Game Boy, Famicom e SNES, placas de circuito PCB e neon desgastado — e vem como um arquivo de tema JSON que você coloca em `~/.config/opencode/themes/`. Eles funcionam no OpenCode 1.x e 2.x, nos modos escuro e claro, e foram testados pela última vez com o OpenCode 2.0.21 (outubro de 2026).
 
 Todo tema é verificado a cada push pelo [`scripts/validate.js`](scripts/validate.js): ele precisa usar o `$schema` de tema do OpenCode, definir os 50 tokens de cor com variantes escura e clara (o OpenCode 2 ignora silenciosamente temas que não tenham alguns deles) e manter os principais pares de texto/fundo com uma taxa de contraste de pelo menos 1.8:1. Essa taxa é um piso de legibilidade, não uma verificação de acessibilidade WCAG.
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-# Inume Opencode Retro Themes
+# Inume Retro Themes
 
 [English](README.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · **Français** · [Русский](README.ru.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
@@ -19,7 +19,7 @@
 
 ---
 
-**Inume Opencode Retro Themes** est une collection de 13 thèmes gratuits, sous licence MIT, pour [OpenCode](https://opencode.ai/), l'agent de codage IA en terminal (TUI) open source. Chaque thème recrée l'apparence d'un matériel ou d'un logiciel classique — Windows 95, Norton Commander, les terminaux à phosphore IBM, la palette CGA, la PlayStation 1 et 2, la Nintendo GameCube, la Game Boy, la Famicom et la SNES, les cartes de circuits imprimés PCB et un néon usé — chacun conditionné en fichier de thème JSON que vous déposez dans `~/.config/opencode/themes/`. Ils fonctionnent sur OpenCode 1.x et 2.x, en mode sombre et clair, et ont été testés pour la dernière fois avec OpenCode 2.0.21 (octobre 2026).
+**Inume Retro Themes** est une collection de 13 thèmes gratuits, sous licence MIT, pour [OpenCode](https://opencode.ai/), l'agent de codage IA en terminal (TUI) open source. Chaque thème recrée l'apparence d'un matériel ou d'un logiciel classique — Windows 95, Norton Commander, les terminaux à phosphore IBM, la palette CGA, la PlayStation 1 et 2, la Nintendo GameCube, la Game Boy, la Famicom et la SNES, les cartes de circuits imprimés PCB et un néon usé — chacun conditionné en fichier de thème JSON que vous déposez dans `~/.config/opencode/themes/`. Ils fonctionnent sur OpenCode 1.x et 2.x, en mode sombre et clair, et ont été testés pour la dernière fois avec OpenCode 2.0.21 (octobre 2026).
 
 Chaque thème est vérifié à chaque push par [`scripts/validate.js`](scripts/validate.js) : il doit utiliser le `$schema` des thèmes OpenCode, définir les 50 jetons de couleur avec des variantes sombre et claire (OpenCode 2 ignore silencieusement les thèmes auxquels il en manque certains) et maintenir les paires texte/fond essentielles à un rapport de contraste d'au moins 1.8:1. Ce rapport est un plancher de lisibilité, pas un contrôle d'accessibilité WCAG.
 

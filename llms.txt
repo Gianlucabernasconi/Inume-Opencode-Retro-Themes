@@ -1,4 +1,4 @@
-# Inume Opencode Retro Themes
+# Inume Retro Themes
 
 > 13 free, MIT-licensed retro themes for OpenCode, the open-source terminal AI coding agent (TUI), by Gianluca Bernasconi. Each theme recreates the look of classic hardware and software — Windows 95, Norton Commander, IBM phosphor terminals, CGA, PlayStation 1 and 2, GameCube, Game Boy, Famicom, SNES, PCB circuit boards, and worn neon. Works on OpenCode 1.x and 2.x; last tested with OpenCode 2.0.21 (October 2026).
 
@@ -23,7 +23,7 @@ curl -fsSL https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-R
 
 ## Themes
 
-- [w95-classic](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/w95-classic.json): Windows 95 — teal desktop, gray panels (fixed palette)
+- [w95-classic](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/w95-classic.json): Windows 95 — teal desktop, gray window chrome (fixed palette)
 - [norton-commander](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/norton-commander.json): Norton Commander — blue file-manager terminal (fixed palette)
 - [ibm-old-terminal](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/ibm-old-terminal.json): IBM PC terminal — green phosphor on black (fixed palette)
 - [cga](https://raw.githubusercontent.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/main/themes/cga.json): CGA palette — early PC color, cyan/black (fixed palette)

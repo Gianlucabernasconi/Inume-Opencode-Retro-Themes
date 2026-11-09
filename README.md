@@ -1,6 +1,6 @@
 <div align="center">
 
-# Inume Opencode Retro Themes
+# Inume Retro Themes
 
 **English** · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md) · [Русский](README.ru.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
@@ -11,6 +11,8 @@
 [![Validate Themes](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/actions/workflows/validate.yml/badge.svg)](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 
+Also known as: Inume Opencode Retro Themes (repo slug y nombre histórico).
+
 ![Mosaic of the 13 OpenCode retro themes: Windows 95, Norton Commander, IBM terminal, CGA, PlayStation 1 and 2, GameCube, Game Boy, Famicom, SNES, PCB and neon](assets/cover.png)
 
 [Themes](#the-13-retro-themes) · [Gallery](#theme-gallery) · [Install](#install-the-themes-in-opencode) · [Activate](#activate-a-theme-in-opencode)
@@ -19,7 +21,7 @@
 
 ---
 
-**Inume Opencode Retro Themes** is a collection of 13 free, MIT-licensed themes for [OpenCode](https://opencode.ai/), the open-source terminal AI coding agent (TUI). Each theme recreates the look of classic hardware and software — Windows 95, Norton Commander, IBM phosphor terminals, the CGA palette, PlayStation 1 and 2, the Nintendo GameCube, Game Boy, Famicom, and SNES, PCB circuit boards, and worn neon — packaged as JSON theme files you drop into `~/.config/opencode/themes/`. They work on OpenCode 1.x and 2.x, in dark and light mode, and were last tested with OpenCode 2.0.21 (October 2026).
+**Inume Retro Themes** is a collection of 13 free, MIT-licensed themes for [OpenCode](https://opencode.ai/), the open-source terminal AI coding agent (TUI). Each theme recreates the look of classic hardware and software — Windows 95, Norton Commander, IBM phosphor terminals, the CGA palette, PlayStation 1 and 2, the Nintendo GameCube, Game Boy, Famicom, and SNES, PCB circuit boards, and worn neon — packaged as JSON theme files you drop into `~/.config/opencode/themes/`. They work on OpenCode 1.x and 2.x, in dark and light mode, and were last tested with OpenCode 2.0.21 (October 2026).
 
 Every theme is checked on each push by [`scripts/validate.js`](scripts/validate.js): it must use the OpenCode theme `$schema`, define all 50 color tokens with dark and light variants (OpenCode 2 silently ignores themes that miss some of them), and keep key text/background pairs at a contrast ratio of at least 1.8:1. That ratio is a legibility floor, not a WCAG accessibility check.
 
@@ -27,7 +29,7 @@ Every theme is checked on each push by [`scripts/validate.js`](scripts/validate.
 
 | Theme | Inspiration | Mood |
 | --- | --- | --- |
-| [`w95-classic`](themes/w95-classic.json) | Windows 95 | Teal desktop, gray panels, old desktop UI |
+| [`w95-classic`](themes/w95-classic.json) | Windows 95 | Teal desktop, gray window chrome, old desktop UI |
 | [`norton-commander`](themes/norton-commander.json) | Norton Commander | Blue file-manager terminal, high contrast |
 | [`ibm-old-terminal`](themes/ibm-old-terminal.json) | IBM PC terminal | Green phosphor, black screen, command-line focus |
 | [`cga`](themes/cga.json) | CGA palette | Early PC color, hard contrast, retro cyan |
@@ -59,7 +61,7 @@ Click a theme name to open its JSON source file.
 
 Windows 95 teal, gray window chrome, and old desktop UI contrast.
 
-![OpenCode terminal UI with the w95-classic theme: Windows 95 teal desktop and gray panels](assets/screenshots/w95-classic.png)
+![OpenCode terminal UI with the w95-classic theme: Windows 95 teal desktop and gray window chrome](assets/screenshots/w95-classic.png)
 
 </td>
 <td width="50%" valign="top">

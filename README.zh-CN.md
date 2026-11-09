@@ -1,6 +1,6 @@
 <div align="center">
 
-# Inume Opencode Retro Themes
+# Inume Retro Themes
 
 [English](README.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md) · [Русский](README.ru.md) · [日本語](README.ja.md) · **简体中文**
 
@@ -19,9 +19,9 @@
 
 ---
 
-**Inume Opencode Retro Themes** 是 13 款免费、采用 MIT 许可证的主题合集，面向 [OpenCode](https://opencode.ai/) —— 开源的终端 AI 编程助手（TUI）。每款主题都复刻了经典硬件与软件的外观：Windows 95、Norton Commander、IBM 荧光终端、CGA 调色板、PlayStation 1 和 2、Nintendo GameCube、Game Boy、Famicom 与 SNES、PCB 电路板，以及老旧霓虹。这些主题以 JSON 主题文件的形式打包，放进 `~/.config/opencode/themes/` 即可使用。它们适用于 OpenCode 1.x 和 2.x，支持深色与浅色模式，最近一次测试使用的是 OpenCode 2.0.21（2026 年 10 月）。
+**Inume Retro Themes** 是 13 款免费、采用 MIT 许可证的主题合集，面向 [OpenCode](https://opencode.ai/) —— 开源的终端 AI 编程助手（TUI）。每款主题都复刻了经典硬件与软件的外观：Windows 95、Norton Commander、IBM 荧光终端、CGA 调色板、PlayStation 1 和 2、Nintendo GameCube、Game Boy、Famicom 与 SNES、PCB 电路板，以及老旧霓虹。这些主题以 JSON 主题文件的形式打包，放入 `~/.config/opencode/themes/` 即可。它们适用于 OpenCode 1.x 和 2.x，支持深色与浅色模式，最近一次测试使用的是 OpenCode 2.0.21（2026 年 10 月）。
 
-每次推送时，[`scripts/validate.js`](scripts/validate.js) 都会校验每一款主题：必须使用 OpenCode 主题的 `$schema`，定义全部 50 个颜色 token 及其深色与浅色变体（OpenCode 2 会静默忽略缺少其中部分 token 的主题），并让关键的文字/背景配色组合保持不低于 1.8:1 的对比度。该比值只是可读性下限，并非 WCAG 无障碍检查。
+每次推送时，[`scripts/validate.js`](scripts/validate.js) 都会校验每一款主题：必须使用 OpenCode 主题的 `$schema`，定义全部 50 个颜色 token 及其深色与浅色变体（OpenCode 2 会静默忽略缺少其中部分 token 的主题），并让关键的文字/背景配色组合保持不低于 1.8:1 的对比度。该比值是可读性下限，而非 WCAG 无障碍检查。
 
 ## 13 款复古主题
 
@@ -30,8 +30,8 @@
 | [`w95-classic`](themes/w95-classic.json) | Windows 95 | 蓝绿色桌面、灰色面板、老式桌面界面 |
 | [`norton-commander`](themes/norton-commander.json) | Norton Commander | 蓝色文件管理器终端，高对比度 |
 | [`ibm-old-terminal`](themes/ibm-old-terminal.json) | IBM PC 终端 | 绿色荧光、黑色屏幕，以命令行为中心 |
-| [`cga`](themes/cga.json) | CGA 调色板 | 早期 PC 彩色、强烈对比、复古青色 |
-| [`theme-station-1`](themes/theme-station-1.json) | PlayStation 1 | 浅灰色外壳、低饱和界面、经典主机手感 |
+| [`cga`](themes/cga.json) | CGA 调色板 | 早期 PC 色彩、强烈对比、复古青色 |
+| [`theme-station-1`](themes/theme-station-1.json) | PlayStation 1 | 浅灰色外壳、低饱和界面、经典主机的观感 |
 | [`theme-station-2`](themes/theme-station-2.json) | PlayStation 2 | 深黑色、蓝色光晕、主机开机的暗色能量 |
 | [`theme-cube`](themes/theme-cube.json) | Nintendo GameCube | 紫色硬件，活泼的主机气质 |
 | [`dot-matrix`](themes/dot-matrix.json) | Nintendo Game Boy | 豆绿色 LCD、四种色阶、掌机点阵屏 |

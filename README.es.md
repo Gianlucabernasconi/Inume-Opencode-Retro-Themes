@@ -1,6 +1,6 @@
 <div align="center">
 
-# Inume Opencode Retro Themes
+# Inume Retro Themes
 
 [English](README.md) · **Español** · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md) · [Русский](README.ru.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
@@ -19,7 +19,7 @@
 
 ---
 
-**Inume Opencode Retro Themes** es una colección de 13 temas gratuitos con licencia MIT para [OpenCode](https://opencode.ai/), el agente de programación con IA de código abierto para terminal (TUI). Cada tema recrea la apariencia de hardware y software clásicos — Windows 95, Norton Commander, terminales de fósforo IBM, la paleta CGA, PlayStation 1 y 2, la Nintendo GameCube, Game Boy, Famicom y SNES, placas de circuito PCB y neón desgastado — empaquetados como archivos JSON de tema que colocas en `~/.config/opencode/themes/`. Funcionan en OpenCode 1.x y 2.x, en modo oscuro y claro, y se probaron por última vez con OpenCode 2.0.21 (octubre de 2026).
+**Inume Retro Themes** es una colección de 13 temas gratuitos con licencia MIT para [OpenCode](https://opencode.ai/), el agente de programación con IA de código abierto para terminal (TUI). Cada tema recrea la apariencia de hardware y software clásicos — Windows 95, Norton Commander, terminales de fósforo IBM, la paleta CGA, PlayStation 1 y 2, la Nintendo GameCube, Game Boy, Famicom y SNES, placas de circuito PCB y neón desgastado — empaquetados como archivos JSON de tema que colocas en `~/.config/opencode/themes/`. Funcionan en OpenCode 1.x y 2.x, en modo oscuro y claro, y se probaron por última vez con OpenCode 2.0.21 (octubre de 2026).
 
 Cada tema se comprueba en cada push con [`scripts/validate.js`](scripts/validate.js): debe usar el `$schema` de temas de OpenCode, definir los 50 tokens de color con variantes oscura y clara (OpenCode 2 ignora en silencio los temas a los que les falta alguno de ellos) y mantener los pares clave de texto y fondo con una relación de contraste de al menos 1.8:1. Esa relación es un piso de legibilidad, no una comprobación de accesibilidad WCAG.
 

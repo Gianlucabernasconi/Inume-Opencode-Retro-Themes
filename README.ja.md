@@ -1,6 +1,6 @@
 <div align="center">
 
-# Inume Opencode Retro Themes
+# Inume Retro Themes
 
 [English](README.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md) · [Русский](README.ru.md) · **日本語** · [简体中文](README.zh-CN.md)
 
@@ -19,7 +19,7 @@
 
 ---
 
-**Inume Opencode Retro Themes** は、オープンソースのターミナル AI コーディングエージェント（TUI）である [OpenCode](https://opencode.ai/) 向けの、無料かつ MIT ライセンスの 13 個のテーマ集です。各テーマは、クラシックなハードウェアやソフトウェアの見た目を再現したもので、Windows 95、Norton Commander、IBM のリン光表示端末、CGA パレット、PlayStation 1 と 2、Nintendo GameCube、Game Boy、Famicom、SNES、PCB の回路基板、色あせたネオンを題材にしています。`~/.config/opencode/themes/` に配置する JSON 形式のテーマファイルとして提供されます。OpenCode 1.x と 2.x のダークモードとライトモードで動作し、最後の検証は OpenCode 2.0.21（2026 年 10 月）で行いました。
+**Inume Retro Themes** は、オープンソースのターミナル AI コーディングエージェント（TUI）である [OpenCode](https://opencode.ai/) 向けの、無料かつ MIT ライセンスの 13 個のテーマ集です。各テーマは、クラシックなハードウェアやソフトウェアの見た目を再現したもので、Windows 95、Norton Commander、IBM のリン光表示端末、CGA パレット、PlayStation 1 と 2、Nintendo GameCube、Game Boy、Famicom、SNES、PCB の回路基板、色あせたネオンを題材にしています。`~/.config/opencode/themes/` に配置する JSON 形式のテーマファイルとして提供されます。OpenCode 1.x と 2.x のダークモードとライトモードで動作し、最後の検証は OpenCode 2.0.21（2026 年 10 月）で行いました。
 
 各テーマは push のたびに [`scripts/validate.js`](scripts/validate.js) で検証されます。OpenCode のテーマ用 `$schema` を使用していること、50 個のカラートークンすべてをダークとライトの両方のバリアント付きで定義していること（OpenCode 2 では、一部が欠けたテーマが警告なしで無視されます）、主要なテキストと背景の組み合わせが 1.8:1 以上のコントラスト比を保っていることが条件です。この比率は可読性の下限であり、WCAG のアクセシビリティ基準ではありません。
 

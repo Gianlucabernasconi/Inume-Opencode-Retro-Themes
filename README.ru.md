@@ -1,6 +1,6 @@
 <div align="center">
 
-# Inume Opencode Retro Themes
+# Inume Retro Themes
 
 [English](README.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md) · **Русский** · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
@@ -19,7 +19,7 @@
 
 ---
 
-**Inume Opencode Retro Themes** — это коллекция из 13 бесплатных тем под лицензией MIT для [OpenCode](https://opencode.ai/), открытого терминального AI-агента для программирования (TUI). Каждая тема воссоздаёт облик классического железа и софта — Windows 95, Norton Commander, фосфорных терминалов IBM, палитры CGA, PlayStation 1 и 2, Nintendo GameCube, Game Boy, Famicom и SNES, печатных плат (PCB) и выцветшего неона, — и поставляется в виде JSON-файлов темы, которые вы кладёте в `~/.config/opencode/themes/`. Они работают в OpenCode 1.x и 2.x, в тёмном и светлом режиме, и последний раз проверялись на OpenCode 2.0.21 (октябрь 2026).
+**Inume Retro Themes** — это коллекция из 13 бесплатных тем под лицензией MIT для [OpenCode](https://opencode.ai/), открытого терминального AI-агента для программирования (TUI). Каждая тема воссоздаёт облик классического железа и софта — Windows 95, Norton Commander, фосфорных терминалов IBM, палитры CGA, PlayStation 1 и 2, Nintendo GameCube, Game Boy, Famicom и SNES, печатных плат (PCB) и выцветшего неона, — и поставляется в виде JSON-файлов темы, которые вы кладёте в `~/.config/opencode/themes/`. Они работают в OpenCode 1.x и 2.x, в тёмном и светлом режиме, и последний раз проверялись на OpenCode 2.0.21 (октябрь 2026).
 
 Каждая тема проверяется при каждом push скриптом [`scripts/validate.js`](scripts/validate.js): она должна использовать `$schema` темы OpenCode, определять все 50 цветовых токенов с тёмным и светлым вариантами (OpenCode 2 молча игнорирует темы, в которых некоторых из них нет) и держать контраст ключевых пар текст/фон не ниже 1.8:1. Это соотношение — нижняя граница читаемости, а не проверка доступности по WCAG.
 
