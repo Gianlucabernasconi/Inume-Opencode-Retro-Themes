@@ -11,7 +11,7 @@
 [![Validate Themes](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/actions/workflows/validate.yml/badge.svg)](https://github.com/Gianlucabernasconi/Inume-Opencode-Retro-Themes/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 
-Also known as: Inume Opencode Retro Themes (repo slug y nombre histórico).
+Also known as: Inume Opencode Retro Themes.
 
 Live showcase: [opencode-retro-themes.netlify.app](https://opencode-retro-themes.netlify.app) — compare the 13 palettes rendered with their real color tokens before installing.
 
