@@ -12,7 +12,7 @@ const fs = require('fs');
 const path = require('path');
 
 const THEMES_DIR = path.join(__dirname, '..', 'themes');
-const SCHEMA = 'https://opencode.ai/theme.json';
+const SCHEMA = 'https://opencode.ai/docs/theme.json';
 const STRICT = process.argv.includes('--strict');
 
 // Contrato completo de tokens que OpenCode espera en un tema.
